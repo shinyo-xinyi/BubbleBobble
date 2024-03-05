@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="680.0" prefWidth="800.0" styleClass="AnchorPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.BubbleBobble.Controller.InfoController">
+    <Button layoutX="25.0" layoutY="24.0" mnemonicParsing="false" onAction="#onHomeButtonClick" styleClass="themeButton" text="Back to home page" />
+    <Button layoutX="653.0" layoutY="607.0" mnemonicParsing="false" onAction="#onNextButtonClick" prefHeight="36.0" prefWidth="94.0" styleClass="themeButton" text="Next" />
+    <Text layoutX="311.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hero" wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="74.0" />
+        </font>
+    </Text>
+    <ImageView fitHeight="92.0" fitWidth="80.0" layoutX="209.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../picture/hero1.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="81.0" fitWidth="80.0" layoutX="49.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../picture/hero2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="88.0" fitWidth="80.0" layoutX="129.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../picture/hero3.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="81.0" fitWidth="80.0" layoutX="381.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../picture/heroInvincible.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="77.0" fitWidth="80.0" layoutX="386.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../picture/heroStunned.png" />
+        </image>
+    </ImageView>
+    <Text layoutX="467.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invincible State: (won't be hurt)" wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="17.0" />
+        </font>
+    </Text>
+    <Text layoutX="468.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="can move and jump, cannot shoot" wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="17.0" />
+        </font>
+    </Text>
+    <Text layoutX="480.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stunned State: (will be hurt)" wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="17.0" />
+        </font>
+    </Text>
+    <Text layoutX="480.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cannot move, jump or shoot" wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="17.0" />
+        </font>
+    </Text>
+    <Text layoutX="66.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Normal State: " wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="17.0" />
+        </font>
+    </Text>
+    <Text layoutX="66.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="can move and jump and shoot" wrappingWidth="245.2015380859375">
+        <font>
+            <Font name="Kalam" size="17.0" />
+        </font>
+    </Text>
+   <ImageView fitHeight="81.0" fitWidth="80.0" layoutX="66.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../picture/heart/heart5.png" />
+      </image>
+   </ImageView>
+   <Text layoutX="66.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the lives of the hero" wrappingWidth="245.2015380859375">
+      <font>
+         <Font name="Kalam" size="17.0" />
+      </font>
+   </Text>
+   <ImageView fitHeight="14.0" fitWidth="94.0" layoutX="66.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../picture/charging.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="14.0" fitWidth="94.0" layoutX="66.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../picture/charging_full.png" />
+      </image>
+   </ImageView>
+   <Text layoutX="66.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the charging bar of the hero" wrappingWidth="245.2015380859375">
+      <font>
+         <Font name="Kalam" size="17.0" />
+      </font>
+   </Text>
+   <Text layoutX="66.0" layoutY="606.0" strokeType="OUTSIDE" strokeWidth="0.0" text="when it is full, the hero could set a bomb to trap all enemies" wrappingWidth="644.401611328125">
+      <font>
+         <Font name="Kalam" size="17.0" />
+      </font>
+   </Text>
+   <ImageView fitHeight="77.0" fitWidth="80.0" layoutX="387.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../picture/heroShield.png" />
+      </image>
+   </ImageView>
+   <Text layoutX="480.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shield State: (won't be hurt)" wrappingWidth="245.2015380859375">
+      <font>
+         <Font name="Kalam" size="17.0" />
+      </font>
+   </Text>
+   <Text layoutX="480.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cannot move,jump or shoot" wrappingWidth="245.2015380859375">
+      <font>
+         <Font name="Kalam" size="17.0" />
+      </font>
+   </Text>
+</AnchorPane>

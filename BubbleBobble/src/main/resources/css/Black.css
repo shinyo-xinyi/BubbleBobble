@@ -1,0 +1,69 @@
+.BorderPane{
+    -fx-background-image: url('file:src/main/resources/picture/theme/Black/Black.png');
+}
+
+.AnchorPane{
+    -fx-background-image: url('file:src/main/resources/picture/theme/Black/Black.png');
+}
+
+.button{
+
+    -fx-border-color: transparent;
+
+    -fx-background-color: transparent;
+
+}
+
+.button:focused {
+
+    -fx-background-color: white;
+
+}
+
+.button:pressed {
+
+    -fx-text-fill: white;
+
+}
+
+.themeButton{
+    -fx-background-color: #DCDCDC;
+    -fx-text-fill:black;
+}
+
+.Title{
+    -fx-fill:black;
+}
+
+.Text{
+    -fx-fill:white;
+}
+
+.choice-box{
+    -fx-background-color: #DCDCDC;
+    -fx-text-fill:black;
+}
+
+#homeButton{
+    -fx-background-image: url('file:src/main/resources/picture/Button/b_Home.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#pauseButton{
+    -fx-background-image: url('file:src/main/resources/picture/Button/b_Pause.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#playButton{
+    -fx-background-image: url('file:src/main/resources/picture/Button//b_Play.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#soundButton{
+    -fx-background-image: url('file:src/main/resources/picture/Button/b_Sound.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane styleClass="BorderPane" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.BubbleBobble.Controller.StartController">
+   <center>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="680.0" prefWidth="800.0" spacing="20.0" BorderPane.alignment="CENTER">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+         <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+               <Font name="Berlin Sans FB" size="27.0" />
+            </font>
+         </Text>
+         <Text stroke="#f3ffa4" strokeType="OUTSIDE" strokeWidth="2.0" styleClass="Title" text="BubbleBobble">
+            <font>
+               <Font name="Berlin Sans FB" size="86.0" />
+            </font>
+         </Text>
+      
+                                                                         <Label fx:id="welcomeText" />
+         <Pane prefHeight="345.0" prefWidth="604.0">
+            <children>
+                <Button fx:id="gameButton" layoutX="232.0" layoutY="33.0" onAction="#onStartButtonClick" prefHeight="50.0" prefWidth="155.0" styleClass="themeButton" text="Game" textFill="#81bcb1" underline="true">
+                  <font>
+                     <Font name="Kalam" size="20.0" />
+                  </font>
+               </Button>
+               <Button fx:id="infoButton" layoutX="232.0" layoutY="116.0" mnemonicParsing="false" onAction="#onInfoButtonClick" prefHeight="54.0" prefWidth="155.0" styleClass="themeButton" text="Infos" textFill="#82c1ad" underline="true">
+                  <font>
+                     <Font name="Kalam" size="20.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="282.0" fitWidth="231.0" layoutX="441.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../picture/Dragon.png" />
+                  </image>
+               </ImageView>
+               <AnchorPane layoutX="-66.0" layoutY="-4.0" prefHeight="337.0" prefWidth="273.0">
+                  <children>
+                     <Text layoutX="65.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Theme Color">
+                        <font>
+                           <Font name="Kalam" size="27.0" />
+                        </font>
+                     </Text>
+                     <ChoiceBox fx:id="choiceBox" layoutX="61.0" layoutY="178.0" prefWidth="150.0" />
+                  </children>
+               </AnchorPane>
+               <Button fx:id="settingButton" layoutX="231.0" layoutY="211.0" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="52.0" prefWidth="158.0" styleClass="themeButton" text="Settings" textFill="#91d7b8" underline="true">
+                  <font>
+                     <Font name="Kalam" size="20.0" />
+                  </font>
+               </Button>
+               <Button fx:id="exitButton" layoutX="231.0" layoutY="305.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="52.0" prefWidth="159.0" styleClass="themeButton" text="Exit" textFill="#91d7b8" underline="true">
+                  <font>
+                     <Font name="Kalam" size="20.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+      </VBox>
+   </center>
+</BorderPane>
