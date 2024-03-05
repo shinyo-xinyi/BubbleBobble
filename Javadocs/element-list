@@ -1,0 +1,17 @@
+module:com.ae2dms.bubblebobble
+com.ae2dms.BubbleBobble
+com.ae2dms.BubbleBobble.Controller
+com.ae2dms.BubbleBobble.Database
+com.ae2dms.BubbleBobble.Factory
+com.ae2dms.BubbleBobble.Unit.MapUnit
+com.ae2dms.BubbleBobble.Unit.SpecialUnit
+com.ae2dms.BubbleBobble.Unit.UpdatableUnit
+com.ae2dms.BubbleBobble.Unit.UpdatableUnit.CollectableUnit
+com.ae2dms.BubbleBobble.Unit.UpdatableUnit.Creature
+com.ae2dms.BubbleBobble.Unit.UpdatableUnit.Projectile
+com.ae2dms.BubbleBobble.UnitBehavior
+com.ae2dms.BubbleBobble.UnitBehavior.CreatureCollideBehavior
+com.ae2dms.BubbleBobble.UnitBehavior.MapCollideBehavior
+com.ae2dms.BubbleBobble.UnitBehavior.ProjectileCollideBehavior
+com.ae2dms.BubbleBobble.UnitState
+com.ae2dms.BubbleBobble.World
